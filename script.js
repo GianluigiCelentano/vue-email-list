@@ -5,9 +5,6 @@ const app = new Vue ({
     data: {
         emails: []
     }, 
-    created() {
-        this.getEmails
-    },
     methods: {
         getEmails: function() {
             for (var i = 0; i < 10; i++) {
