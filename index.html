@@ -16,7 +16,7 @@
     <div id="app">
         <button @click="getEmails()">genera emails</button>
         <ul>
-           <li v-for="email in emails">le email sono {{ email }} </li> 
+           <li v-if="emails.length == 10" v-for="email in emails">le email sono {{ email }} </li> 
         </ul>
 
     </div>
